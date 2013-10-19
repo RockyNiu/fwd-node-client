@@ -1,10 +1,12 @@
 {
 	"name": "fwd-node-client",
-	"version": "0.0.2",
-	"description": "Forward client library for NodeJS",
-	"keywords": [
-		"forward", "fwd", "ecommerce"
-	],
-	"author": "Eric Ingram <eric@getfwd.com",
-	"main": "./lib/client.js"
+	"version": "1.0.2",
+	"description": "Forward JS client library",
+	"author": "Eric Ingram <eric@getfwd.com>",
+	"main": "./lib/index.js",
+	"dependencies": {
+		"dnode": "*",
+		"jsonify": "~0.0.0",
+        "inherits": "2.x"
+    }
 }
