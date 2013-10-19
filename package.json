@@ -1,12 +1,14 @@
 {
-	"name": "fwd-node-client",
-	"version": "1.0.2",
+	"name": "fwdclient",
+	"version": "1.0.1",
 	"description": "Forward JS client library",
-	"author": "Eric Ingram <eric@getfwd.com>",
-	"main": "./lib/index.js",
+	"author": "Forward and contributors",
+	"main": "./lib/client.js",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/getfwd/fwd-node-client.git"
+	},
 	"dependencies": {
-		"dnode": "*",
-		"jsonify": "~0.0.0",
-        "inherits": "2.x"
-    }
+		
+	}
 }

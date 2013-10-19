@@ -4,9 +4,13 @@
 
 Create an API account at https://getfwd.com
 
+## Install
+
+	npm install fwdclient
+
 ## Usage example
 
-	var Forward = require('./lib/fwd-node-client');
+	var Forward = require('fwdclient');
 
 	var fwd = new Forward.Client('client_id', 'client_key');
 
